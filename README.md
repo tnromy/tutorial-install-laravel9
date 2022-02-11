@@ -32,6 +32,7 @@ mv phpunit /usr/local/bin/
 
 laravel cd/
 composer update
+cp .env.example .env
 php artisan key:generate
 
 # step 7
